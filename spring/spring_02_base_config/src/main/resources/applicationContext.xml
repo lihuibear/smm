@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context
+      https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id = "bookDao" class = "com.itheima.dao.impl.BookDaoImpl" scope="prototype"/>
+
+<!--dao放到service里-->
+    <bean id = "bookService" name="service" class = "com.itheima.service.impl.BookServiceImpl">
+        <!--7.配置server与dao的关系-->
+        <!--property标签表示配置当前bean的属性
+        		name属性表示配置哪一个具体的属性
+        		ref属性表示参照哪一个bean
+		-->
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+
+</beans>
