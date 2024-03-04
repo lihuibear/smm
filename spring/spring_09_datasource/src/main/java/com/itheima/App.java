@@ -1,5 +1,6 @@
 package com.itheima;
 
+import com.itheima.dao.BookDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,7 +13,10 @@ public class App {
 //        System.out.println(dataSource);
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        DataSource dataSource = (DataSource) ctx.getBean("dataSource");
-        System.out.println(dataSource);
+//        DataSource dataSource = (DataSource) ctx.getBean("dataSource");
+//        System.out.println(dataSource);
+
+        BookDao bookDao = (BookDao) ctx.getBean("bookDao");
+        bookDao.save();
     }
 }

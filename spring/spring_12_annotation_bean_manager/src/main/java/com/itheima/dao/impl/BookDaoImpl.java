@@ -1,0 +1,26 @@
+package com.itheima.dao.impl;
+
+import com.itheima.dao.BookDao;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Repository;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+@Repository
+@Scope("singleton")/// 设置bean的作用域为prototype(多例)
+public class BookDaoImpl implements BookDao {
+    public void save() {
+        System.out.println("book dao save ...");
+    }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("init ...");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("destroy ...");
+    }
+}
