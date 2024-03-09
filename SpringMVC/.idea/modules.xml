@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_01_quickstart/springmvc_01_quickstart.iml" filepath="$PROJECT_DIR$/springmvc_01_quickstart/springmvc_01_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_02_bean_load/springmvc_02_bean_load.iml" filepath="$PROJECT_DIR$/springmvc_02_bean_load/springmvc_02_bean_load.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_03_request_mapping/springmvc_03_request_mapping.iml" filepath="$PROJECT_DIR$/springmvc_03_request_mapping/springmvc_03_request_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_04_request_param/springmvc_04_request_param.iml" filepath="$PROJECT_DIR$/springmvc_04_request_param/springmvc_04_request_param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_05_response/springmvc_05_response.iml" filepath="$PROJECT_DIR$/springmvc_05_response/springmvc_05_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_06_rest/springmvc_06_rest.iml" filepath="$PROJECT_DIR$/springmvc_06_rest/springmvc_06_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_07_rest_case/springmvc_07_rest_case.iml" filepath="$PROJECT_DIR$/springmvc_07_rest_case/springmvc_07_rest_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_08_ssm/springmvc_08_ssm.iml" filepath="$PROJECT_DIR$/springmvc_08_ssm/springmvc_08_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_09_result/springmvc_09_result.iml" filepath="$PROJECT_DIR$/springmvc_09_result/springmvc_09_result.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_10_exception/springmvc_10_exception.iml" filepath="$PROJECT_DIR$/springmvc_10_exception/springmvc_10_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_11_page/springmvc_11_page.iml" filepath="$PROJECT_DIR$/springmvc_11_page/springmvc_11_page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_12_interceptor/springmvc_12_interceptor.iml" filepath="$PROJECT_DIR$/springmvc_12_interceptor/springmvc_12_interceptor.iml" />
+    </modules>
+  </component>
+</project>

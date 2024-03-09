@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:13:26:52 +0800] "GET /books/save HTTP/1.1" 400 968 http-bio-80-exec-2 149
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:13:27:03 +0800] "POST /books/save HTTP/1.1" 405 1047 http-bio-80-exec-4 5
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:13:27:13 +0800] "POST /books HTTP/1.1" 200 14 http-bio-80-exec-5 964
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:46:19 +0800] "PUT /books HTTP/1.1" 200 14 http-bio-80-exec-8 32
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:46:41 +0800] "GET /pages/books.html HTTP/1.1" 404 949 http-bio-80-exec-10 8
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:46:42 +0800] "GET /pages/books.html HTTP/1.1" 404 949 http-bio-80-exec-10 2
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:48:19 +0800] "PUT /books HTTP/1.1" 200 14 http-bio-80-exec-5 72
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:52:41 +0800] "DELETE /books/14 HTTP/1.1" 200 14 http-bio-80-exec-8 21
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:53:13 +0800] "POST /books HTTP/1.1" 200 14 http-bio-80-exec-8 10
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:54:24 +0800] "GET /books/10 HTTP/1.1" 200 189 http-bio-80-exec-1 118
+0:0:0:0:0:0:0:1 - - [06/Mar/2024:16:54:53 +0800] "GET /books HTTP/1.1" 200 2209 http-bio-80-exec-1 28
